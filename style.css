@@ -61,18 +61,44 @@ img{
     width: 100%;
     border: 0;
     border-radius: 16px;
-    padding: 24px 42px;
+    padding: 32px 64px;
     background-color: #fff5fc;
 }
 
 .headingDua h2{
     color: #6c3b50;
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
 }
 
 .headingDua ul{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: #2f2e2d;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 32px;
+    border-bottom: #2f2e2d 1px solid;
+}
+
+.ingredients h2{
+    color: #6c3b50;
+    font-size: 32px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.ingredients ul{
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     color: #2f2e2d;
