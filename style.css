@@ -88,7 +88,7 @@ img{
     justify-content: center;
     width: 100%;
     padding: 24px 32px;
-    border-bottom: #2f2e2d 1px solid;
+    border-bottom: #919090 1px solid;
 }
 
 .ingredients h2{
@@ -106,4 +106,87 @@ img{
     flex-direction: column;
     gap: 12px;
     margin-top: 12px;
+}
+
+.instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 32px;
+    border-bottom: #919090 1px solid;
+}
+
+.instructions h2{
+    color: #6c3b50;
+    font-size: 32px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.instructions ol{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2f2e2d;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.Nutrition{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 24px 32px;
+    gap : 12px;
+}
+
+.Nutrition h2{
+    color: #6c3b50;
+    font-size: 32px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+.Nutrition p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: #2f2e2d;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+
+.Nutrition tr{
+    display: flex;
+    flex-direction: row;
+    border-bottom: #919090 0.5px solid;
+    padding: 12px 8px;
+
+}
+
+.Nutrition th{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 12px 8px;
+    font-family: Outfit, sans-serif;
+    color: #2f2e2d;
+    font-weight: 100;
+}
+
+.Nutrition td{
+    width: 300px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 12px 8px;
+    font-family: Outfit, sans-serif;
+    color: #6c3b50;
+    font-weight: 900;
 }
